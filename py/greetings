@@ -1,0 +1,15 @@
+def greet(name):
+    """
+    Function to greet the user with their name.
+    """
+    print("Hello, " + name + "! Welcome to our program.")
+
+def main():
+    """
+    Main function to run the greeting.
+    """
+    name = input("Enter your name: ")
+    greet(name)
+
+if __name__ == "__main__":
+    main()
